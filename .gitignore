@@ -17,6 +17,10 @@
 /wp-*.php
 /xmlrpc.php
 
+# archivos ddev
+/.ddev/
+.ddev/
+
 # Configuration
 wp-config.php
 
