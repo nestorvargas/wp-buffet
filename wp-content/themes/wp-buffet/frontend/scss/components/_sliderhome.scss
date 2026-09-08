@@ -1,0 +1,59 @@
+.slider-home {
+  .n2-ss-item-content {
+    @include small-down {
+      margin-bottom: 3rem;
+    }
+  }
+
+  a {
+    color: $color-white !important;
+    letter-spacing: 2px;
+    font-weight: 600;
+    font-family: "Poppins", Arial, Helvetica, sans-serif;
+    text-decoration: none;
+
+    @include small-down {
+      font-size: 1.5rem !important;
+      margin-top: 15rem;
+      margin-bottom: 2rem;
+    }
+
+    &:hover {
+      color: $color-site-orange !important;
+    }
+
+    &::before {
+      content: "";
+      height: 1px;
+      background: white;
+      width: 3.5em;
+      font-size: 1em;
+      display: inline-block;
+      vertical-align: middle;
+      margin-right: 0.8em;
+      backface-visibility: hidden;
+      pointer-events: none;
+      animation: underline 0.4s ease-in-out forwards;
+      transition: transform 0.4s ease-in-out;
+      animation: none;
+      transform-origin: right;
+    }
+
+    &::after {
+      content: "";
+      height: 1px;
+      background: white;
+      width: 3.5em;
+      font-size: 1em;
+      display: inline-block;
+      vertical-align: middle;
+      margin-left: 0.8em;
+      backface-visibility: hidden;
+      pointer-events: none;
+      animation: underline 0.4s ease-in-out forwards;
+      transition: transform 0.4s ease-in-out;
+      animation: none;
+      transform-origin: left;
+    }
+  }
+}

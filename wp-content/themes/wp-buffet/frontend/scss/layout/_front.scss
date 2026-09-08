@@ -1,0 +1,158 @@
+.cards-home-slider {
+  background: #143463;
+  padding: 30px;
+  position: relative;
+  top: -10px;
+  margin-right: 25px;
+  &:last-child {
+    margin-right: 0;
+  }
+
+  h2 {
+    color: #d7a73a;
+  }
+
+  p {
+    color: white;
+    text-align: center;
+    strong {
+      color: #d7a73a;
+    }
+  }
+}
+
+.text-cita-site {
+  font-size: 2rem;
+  color: #143463;
+  text-align: center;
+  margin: 2rem 0;
+  line-height: 1;
+  strong {
+    color: #d7a73a;
+  }
+}
+
+.text-site-home-block {
+  padding: 3rem 0;
+  font-size: 1.2rem;
+  h2 {
+    color: #143463;
+    text-align: center;
+    font-size: 2.3rem;
+  }
+
+  p {
+    color: #1c1c1d;
+    text-align: left;
+    strong,
+    b {
+      color: #d7a73a;
+    }
+  }
+}
+
+.div-list-items-home {
+  padding: 0 2rem;
+
+  ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    li {
+      display: flex;
+      align-items: center;
+      margin-bottom: 1rem;
+      font-size: 1.2rem;
+      color: #1c1c1d;
+    }
+  }
+  img {
+    width: 60px;
+    height: 60px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    transition: all 0.3s ease;
+  }
+}
+
+/* styles para data-wp-buffet */
+.data-wp-buffet {
+  padding: 2rem 0;
+  background: #143463;
+  .is-layout-flex {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .wp-block-kadence-column {
+    display: block;
+    text-align: center;
+    img {
+      width: 120px !important;
+      height: 120px !important;
+      margin-bottom: 10px;
+    }
+    p {
+      color: white;
+      font-size: 1.1rem;
+      font-weight: 500;
+      margin-bottom: 1rem;
+      margin-top: 1rem;
+      line-height: 1;
+    }
+  }
+}
+
+/* styles para section employees */
+
+.div-section-employee {
+  background: white;
+  padding: 2rem;
+  .title-section-employee {
+    color: #d7a73a;
+    text-align: left;
+    font-size: 2rem;
+    margin-bottom: 2rem;
+  }
+
+  .description-section-employee {
+    text-align: left;
+    font-size: 1.2rem;
+    color: #1c1c1d;
+    margin-bottom: 2rem;
+  }
+}
+
+
+.container-fluid{
+  padding: 0;
+}
+
+.text-masterclass-orange{
+  color: #fff;
+  font-size: 1.3rem;
+  font-weight: 600;
+  padding: 1rem;
+  border-radius: 10px;
+  margin-bottom: 1rem;
+  margin-top: 1rem;
+  background: #D7A73A;
+  text-align: center;
+}
+
+.price-masterclass{
+  background: #143463;
+  font-size: 1.1rem;
+  font-weight: 600;
+  color: #fff;
+  padding: 1rem;
+  border-radius: 16px 0 0 16px;
+}
+
+
+/* styles slider home for testimonials */
+
+.slider-small-home-section{
+  padding: 1rem 2rem;
+}

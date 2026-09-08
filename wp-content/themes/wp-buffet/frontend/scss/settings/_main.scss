@@ -1,0 +1,17 @@
+
+body{
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+  background: $color-background;
+  color: $color-font;
+}
+
+
+// kadence
+
+.wp-block-kadence-column{
+ @include small-down {
+    margin: 0 auto;
+    margin-top: 0;
+  }
+}

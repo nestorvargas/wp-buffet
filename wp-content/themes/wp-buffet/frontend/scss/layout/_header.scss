@@ -1,0 +1,24 @@
+.encabezado{
+    width: 100%;
+    position: absolute;
+    background-color: transparent;
+    transform: translateY(0);
+    transition: opacity 250ms ease;
+    visibility: initial;
+    opacity: 1;
+    z-index: 9999;
+
+    .menu-container-site{
+      padding: 0 30px;
+      margin: auto;
+      font-size: 14px;
+
+
+    }
+}
+
+/* header employee */
+
+.employee-site-header{
+  padding-top: 7rem !important;
+}

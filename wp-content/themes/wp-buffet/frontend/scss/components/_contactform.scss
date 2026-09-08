@@ -1,0 +1,38 @@
+
+.contact-form-site-buffet{
+  background: #fff;
+  padding: 2rem;
+  border-radius: 10px;
+  box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.1);
+  margin-top: 2rem;
+
+  input{
+    border: 1px solid #D7A739;
+    border-radius: 5px;
+    padding: 10px;
+    margin-bottom: 1rem;
+    width: 100%;
+  }
+
+  textarea{
+    border: 1px solid #D7A739;
+    border-radius: 5px;
+    padding: 10px;
+    margin-bottom: 1rem;
+    width: 100%;
+  }
+
+}
+
+
+.title-site-contactenos{
+  font-weight: 500;
+  margin-bottom: 1rem;
+
+}
+
+.contact-form-site-buffet{
+  .kt-button{
+    margin-top: 1rem;
+  }
+}
