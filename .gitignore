@@ -17,6 +17,14 @@
 /wp-*.php
 /xmlrpc.php
 
+node_modules/*
+node_modules
+**/node_modules/
+
+**/plugins/
+
+.vscode/
+
 # archivos ddev
 /.ddev/
 .ddev/
